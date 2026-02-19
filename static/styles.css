@@ -1,0 +1,24 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+nav a {
+    margin-right: 15px;
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover {
+    color: blue;
+}
+
+.titulo-principal {
+    text-align: center;
+}
+
+.titulo-inventario {
+    text-align: center;
+    color: blue;
+    font-weight: bold;
+    margin-bottom: 20px;
+}

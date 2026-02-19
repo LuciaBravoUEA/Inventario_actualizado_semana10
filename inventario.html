@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<h2 class="titulo-inventario">
+    Inventario de Productos
+</h2>
+
+<ul>
+{% for item in inventario %}
+    <li>
+        {{ item.nombre }} - 
+        ${{ item.precio }} - 
+        Cantidad: {{ item.cantidad }}
+    </li>
+{% endfor %}
+</ul>
+
+{% endblock %}
